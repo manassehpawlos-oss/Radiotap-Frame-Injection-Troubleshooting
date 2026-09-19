@@ -9,7 +9,7 @@ try:
     sleep_period = int(sys.argv[1])
 except:
     print("Using default timing value of 1ms")
-    sleep_period = 1/1000
+    sleep_period = 1
     
 TA = "AA:AA:AA:AA:AA:AA"
 SA = "BB:BB:BB:BB:BB:BB"
