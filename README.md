@@ -10,9 +10,9 @@ unicast frames are still observed to re-transmit and attempt to be ACKed. The sa
 Four pcap files, corresponding to a repeatedly injected unicast and broadcast frame. The files that end with "..._actual_captures.pcapng" are the injected frames
 that were captured from a second wifi-adapter. The files ending with "..._reported.pcapng" were captured from the same ath9k_htc devices used to inject the frame.
 
-Included as well are the Python scripts I used to isolate this. Run it as a regular user to open the to-be-injected frame in Wireshark, and run as sudo to repeatedly transmit frames. Edit the dev_name variable at the top of either file to match your wifi adapter's name.
+Included as well are the Python scripts I used to isolate this. Run it as a regular user to open the to-be-injected frame in Wireshark, and run as sudo to repeatedly transmit that frame. Edit the dev_name variable at the top of either file to match your wifi adapter's name.
 
-As well, there's a dmesg from a fresh startup of the system, and my PC's kernel config file.
+My kernel.config file and a dmesg from booting the PC up and running the programs are here as well.
 
 Thanks for your hard work!
 
