@@ -9,7 +9,7 @@ try:
     sleep_period = int(sys.argv[1])
 except:
     print("Using default timing value of 1ms")
-    sleep_period = 1/1000
+    sleep_period = 1
 
 radiotap = RadioTap(bytes.fromhex("000014000e8a000002046c09a000000000003800"))
 
