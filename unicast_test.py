@@ -1,6 +1,8 @@
-from scapy.all import *
 import sys
 import os
+import sleep
+
+from scapy.all import *
 
 #INDICATE DEV NAME HERE!
 dev_name = "wlp0s20u2"
