@@ -1,6 +1,6 @@
 import sys
 import os
-import sleep
+import time
 
 from scapy.all import *
 
